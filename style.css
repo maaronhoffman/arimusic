@@ -102,3 +102,11 @@ html  {
   
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .video-bar-text {
+        font-size: 13px;
+        margin: 3px;
+    }
+  
+  }
