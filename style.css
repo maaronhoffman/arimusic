@@ -1,0 +1,80 @@
+.bio-section {
+    height: 400px;
+    padding: 10px;
+}
+.parallax-container {
+    height: 400px;
+    
+}
+html  {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.pagination {
+    padding-right: 0px;
+}
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+    height: 600px;
+    width: 100%;
+    
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: #71DBFB;
+    border-radius: 10px;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#71CDE9;
+}
+
+.video-bar {
+    height: 60px;
+    width: 100%;
+   position: absolute !important;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(242,242,242,.7);
+   padding: 10px;
+}
+
+.video-bar-text {
+    margin-bottom: 0px !important;
+    margin: 10px;
+    float: right;
+}
+
+@media only screen and (max-width: 992px) {
+    .prof {
+        margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+  }

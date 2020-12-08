@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ari Music</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet"  href="style.css">
+    <!-- Jarallax -->
+    <script src="dist/jarallax.min.js"></script>
+
+    <!-- Include it if you want to use Video parallax -->
+    <script src="dist/jarallax-video.min.js"></script>
+
+    <!-- Include it if you want to parallax any element -->
+    <script src="dist/jarallax-element.min.js"></script>
+
+</head>
+<body>
+   <!--  Navbar -->
+   <nav class="navbar sticky-top navbar-expand navbar-light bg-light" style="background-color: rgba(242,242,242,1);">
+            <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="100" height="47" alt="" loading="lazy">
+            </a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+       <!--  <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/para1.jpg" width="1240" height="720"></div>
+            </div> -->
+            <div class="jarallax header-video" data-jarallax-video="mp4:images/video3.mp4">
+                <div class="video-bar">
+                    <h6 class="video-bar-text">4 More Years - EyeAm - Produced by Joel Hoffman</h6>
+                </div>
+            </div>
+        <div class="container">
+        <div class="row" style="margin: 0 auto;">
+            <div class="col-6 bio-section">
+                <h1>Bio</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, delectus, quaerat quae, sapiente tempore dolorem reiciendis ullam culpa sunt laboriosam aliquam excepturi nesciunt minus quia natus omnis? Ullam, provident eum!</p>
+            </div>
+            <div class="col-6 text-center">
+                <img class="prof w-100 rounded mx-auto d-block img-fluid" src="images/joel.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <!-- Background Vimeo Parallax -->
+        <div class="jarallax" data-jarallax-video="mp4:images/video.mp4"></div>
+
+        <div class="container">
+            <div class="row" style="margin: 0 auto;">
+                <div class="col-sm bio-section">
+                    <h1>Bio</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, delectus, quaerat quae, sapiente tempore dolorem reiciendis ullam culpa sunt laboriosam aliquam excepturi nesciunt minus quia natus omnis? Ullam, provident eum!</p>
+                </div>
+            </div>
+        </div>
+
+    
+        
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <!-- <script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+    </script> -->
+    <script type="text/javascript">
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'));
+        jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+            keepImg: true,
+        });
+    </script>
+          
+</body>
+</html>
