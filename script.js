@@ -3,6 +3,8 @@ $( "#contactbutton").click(function() {
   });
 
   function profpic() {
-    $('#body').append($('#contact-card').html());
-    alert('hi');
+    setTimeout(function(){ $('#body').prepend($('#contact-card').html()); }, 200);
+    
+        $( "#body" ).addClass( "body-move" ) 
+    
   }

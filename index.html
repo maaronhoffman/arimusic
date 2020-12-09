@@ -9,6 +9,11 @@
     <!-- Compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet"  href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- Jarallax -->
     <script src="dist/jarallax.min.js"></script>
 
@@ -38,8 +43,8 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       More
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p class="dropdown-item" id="contactbutton"   href="index.html">Contact</p>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" id="contactbutton" href="#">Contact</a>
                       <a class="dropdown-item" href="#">Collaberations</a>
                       <a class="dropdown-item" href="#">Photos</a>
                     </div>
@@ -48,7 +53,7 @@
               </div>
             </nav>
 
-<div id="body">
+<div id="body"class="">
             <div class="jarallax header-video" data-jarallax-video="mp4:images/video3.mp4">
                 <div class="video-bar">
                     <h6 class="video-bar-text text-center">4 More Years - EyeAm - Produced by Joel Hoffman</h6>
@@ -105,7 +110,10 @@
     <script type="text/template" id="contact-card">
         <div class="container">
             <div class="row">
-            <div id="contact-menu" class="">
+            <div id="contact-menu" class="p-4 animate__animated animate__flipInX">
+                <img class=" rounded mx-auto d-block img-fluid shadow-lg" width="100px" height="100px" id="joelpic" src="images/joel.png" alt="" style="float: left">
+                <h1>Contact</h1>
+                <h4>Email:</h4>
             </div>    
             </div>
         </div>
