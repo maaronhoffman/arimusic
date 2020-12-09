@@ -34,17 +34,21 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Catalog</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" id="contactbutton" href="#">Contact</a>
+                      <a class="dropdown-item" href="#">Collaberations</a>
+                      <a class="dropdown-item" href="#">Photos</a>
+                    </div>
                   </li>
                 </ul>
               </div>
             </nav>
 
-       <!--  <div class="parallax-container">
-            <div class="parallax">
-                <img src="images/para1.jpg" width="1240" height="720"></div>
-            </div> -->
+<div id="body">
             <div class="jarallax header-video" data-jarallax-video="mp4:images/video3.mp4">
                 <div class="video-bar">
                     <h6 class="video-bar-text text-center">4 More Years - EyeAm - Produced by Joel Hoffman</h6>
@@ -57,7 +61,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, delectus, quaerat quae, sapiente tempore dolorem reiciendis ullam culpa sunt laboriosam aliquam excepturi nesciunt minus quia natus omnis? Ullam, provident eum!</p>
             </div>
             <div class="col-6 text-center" style="padding-right: 0;">
-                <img class="prof w-100 rounded mx-auto d-block img-fluid shadow-lg" src="images/joel.png" alt="">
+                <img class="prof w-100 rounded mx-auto d-block img-fluid shadow-lg" id="joelpic" src="images/joel.png" alt="">
             </div>
         </div>
     </div>
@@ -74,7 +78,7 @@
             </div>
         </div>
 
-    
+</div>    
         
 
 
@@ -88,6 +92,7 @@
         $('.parallax').parallax();
     });
     </script> -->
+    <script src="script.js"></script>
     <script type="text/javascript">
         /* init Jarallax */
         jarallax(document.querySelectorAll('.jarallax'));
@@ -95,6 +100,15 @@
             keepImg: true,
         });
     </script>
-          
+    
+    <!-- Java Pages -->
+    <script type="text/template" id="contact-card">
+        <div class="container">
+            <div class="row">
+            <div id="contact-menu" class="">
+            </div>    
+            </div>
+        </div>
+    </script>
 </body>
 </html>

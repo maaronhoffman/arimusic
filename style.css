@@ -110,3 +110,28 @@ html  {
     }
   
   }
+
+  .dropdown-toggle {
+      outline: none !important;
+  }
+ 
+  #contact-menu {
+    height: 400px;
+    width: 100%;
+    /* margin-left: 40px; */
+    /* background-color: #FFFFFF; */
+    box-shadow: 0px 0px 61px -19px rgba(0,0,0,0.90);
+    border-bottom: 1px solid #a8a8a8;
+    border-right: 1px solid #a8a8a8;
+    border-radius: 10px 10px 10px 10px;
+    font-family: antarctican-headline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+  }
