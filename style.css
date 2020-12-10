@@ -72,6 +72,7 @@ html  {
 }
 
 
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color:#71CDE9;
 }
@@ -101,15 +102,34 @@ html  {
   transform: translate(-50%, -50%);
   
     }
+    .bio-section p {
+        font-size: 10px;
+    }
+    .home-sect1 {
+        height: 600px;
+    }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1200px) {
+    
+    .bio-section p {
+        font-size: 13px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 766px) {
     .video-bar-text {
         font-size: 13px;
         margin: 3px;
     }
+    .home-sect1 {
+        height: 800px;
+    }
   
   }
+
+
 
   .dropdown-toggle {
       outline: none !important;
@@ -147,3 +167,6 @@ html  {
   .animate__animated.animate__flipInX {
     --animate-duration: .3s;
   }
+.card {
+    margin: 0 auto;
+}
