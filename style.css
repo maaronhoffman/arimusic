@@ -125,15 +125,18 @@ html  {
         margin: 3px;
     }
     .home-sect1 {
-        height: 800px;
+        height: 860px;
+    }
+    .bio-section p {
+        font-size: 11px;
     }
   
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 575px) {
     
     .home-sect1 {
-        height: 850px;
+        height: 860px;
     }
   
   }
