@@ -141,6 +141,14 @@ html  {
   
   }
 
+  @media only screen and (max-width: 350px) {
+    
+    .home-sect1 {
+        height: 1060px;
+    }
+  
+  }
+
 
   .dropdown-toggle {
       outline: none !important;
