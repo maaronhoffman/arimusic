@@ -106,9 +106,7 @@ html  {
     .bio-section p {
         font-size: 10px;
     }
-    .home-sect1 {
-        height: 600px;
-    }
+
   }
 
   @media only screen and (max-width: 1200px) {
@@ -124,30 +122,21 @@ html  {
         font-size: 13px;
         margin: 3px;
     }
-    .home-sect1 {
-        height: 860px;
-    }
-    .bio-section p {
-        font-size: 11px;
-    }
+
+  }
+
+  @media only screen and (max-width: 670px) {
+    
+
+  }
+
+  @media only screen and (max-width: 540px) {
+    
+  
+    
   
   }
 
-  @media only screen and (max-width: 575px) {
-    
-    .home-sect1 {
-        height: 860px;
-    }
-  
-  }
-
-  @media only screen and (max-width: 350px) {
-    
-    .home-sect1 {
-        height: 1060px;
-    }
-  
-  }
 
 
   .dropdown-toggle {
